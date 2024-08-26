@@ -17,6 +17,7 @@ for i in results:
     test = results[index:index + 6]
     if test == [1, 1, 1, 1, 1, 1]:
         hStreak = hStreak + 1
+        index = index + 6
     if test == [0, 0, 0, 0, 0, 0]:
         tStreak = tStreak + 1
     index = index + 1
